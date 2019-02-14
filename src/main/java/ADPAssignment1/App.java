@@ -10,6 +10,12 @@ import java.util.Arrays;
 public class App implements ActionListener
 {
 
+
+
+
+
+
+
     JFrame jf = new JFrame("test");
     JButton btnred = new JButton("red");
     JButton btnblue = new JButton("blue");
@@ -143,6 +149,7 @@ public class App implements ActionListener
         {
             txtarea.setBackground(Color.red);
             JOptionPane.showMessageDialog(null,"you pressed " + e.getActionCommand());
+
         }
 
         if(btnblue == e.getSource())
@@ -174,6 +181,7 @@ public class App implements ActionListener
     public static void main (String[]args)
     {
         new App();
+        JOptionPane.showMessageDialog(null,"this is Bennnieee here");
     }
 
 
